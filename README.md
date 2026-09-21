@@ -14,6 +14,15 @@ The app keeps message history so follow-up questions can use previous conversati
 
 Unsupported test question: Is that the same for members?
 
+## Setup
+Create and activate a virtual environment:
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+Install dependencies:
+pip install -e .
+
 ## Graph
 
 ```mermaid
